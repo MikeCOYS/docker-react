@@ -7,8 +7,3 @@ it("renders without crashing", () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
-
-it("renders without should fail travis", () => {
-  const div = document.createElement("div");
-  ReactDOM.render(<'Bla' />, div);
-});
